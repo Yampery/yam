@@ -1,0 +1,11 @@
+com\yam\mapper\TbContentCategoryMapper.class
+com\yam\mapper\TbItemDescMapper.class
+com\yam\mapper\TbItemParamMapper.class
+com\yam\mapper\TbOrderMapper.class
+com\yam\mapper\TbUserMapper.class
+com\yam\mapper\TbItemMapper.class
+com\yam\mapper\TbOrderShippingMapper.class
+com\yam\mapper\TbContentMapper.class
+com\yam\mapper\TbItemParamItemMapper.class
+com\yam\mapper\TbOrderItemMapper.class
+com\yam\mapper\TbItemCatMapper.class

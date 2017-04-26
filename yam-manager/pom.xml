@@ -1,0 +1,40 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.yam</groupId>
+    <artifactId>yam-parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <groupId>com.yam</groupId>
+  <artifactId>yam-manager</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  
+  <dependencies>
+  		<!-- 依赖yam-common -->
+  		<dependency>
+  			  <groupId>com.yam</groupId>
+			  <artifactId>yam-common</artifactId>
+			  <version>0.0.1-SNAPSHOT</version>
+  		</dependency>
+  </dependencies>
+  <modules>
+  	<module>yam-manager-pojo</module>
+  	<module>yam-manager-mapper</module>
+  	<module>yam-manager-service</module>
+  	<module>yam-manager-web</module>
+  </modules>
+  
+  <build>
+  		<plugins>
+  			<plugin>
+  				<groupId>org.apache.tomcat.maven</groupId>
+				<artifactId>tomcat7-maven-plugin</artifactId>
+				<configuration>
+					<port>8088</port>
+					<path>/</path>
+				</configuration>
+  			</plugin>
+  		</plugins>
+  </build>
+</project>

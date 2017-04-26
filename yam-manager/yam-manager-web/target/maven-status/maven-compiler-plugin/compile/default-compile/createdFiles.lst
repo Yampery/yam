@@ -1,0 +1,8 @@
+com\yam\controller\PageController.class
+com\yam\controller\ItemCatController.class
+com\yam\controller\ItemParamController.class
+com\yam\controller\ItemController.class
+com\yam\controller\PictureController.class
+com\yam\controller\ContentCategoryController.class
+com\yam\controller\ItemParamItemController.class
+com\yam\controller\ContentController.class
